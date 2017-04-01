@@ -4,7 +4,8 @@
   "description": "electron sound",
   "main": "./main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager ./ SoundMachine --all --out ~/Desktop/SoundMachine --version 0.30.2 --overwrite --icon=./app/img/app-icon.icns"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,10 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "electron-packager": "^8.6.0",
     "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "nconf": "^0.8.4"
   }
 }
