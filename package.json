@@ -1,0 +1,17 @@
+{
+  "name": "sound_machine",
+  "version": "0.1.0",
+  "description": "electron sound",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wujincun/electronDemo.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
